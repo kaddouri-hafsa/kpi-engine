@@ -1,0 +1,18 @@
+# Donnees et resultats regenerables - jamais versionnes (confidentialite +
+# regeneres a chaque execution du pipeline)
+data/sources/*
+!data/sources/.gitkeep
+data/generated/*
+!data/generated/.gitkeep
+resultats/*
+!resultats/.gitkeep
+text_to_sql/*.db
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Streamlit
+.streamlit/secrets.toml

@@ -1,0 +1,10 @@
+pandas>=2.2
+numpy>=2.0
+openpyxl>=3.1
+scikit-learn>=1.5
+ollama>=0.6
+langchain>=1.0
+langchain-community>=0.4
+langchain-ollama>=1.0
+SQLAlchemy>=2.0
+streamlit>=1.45
