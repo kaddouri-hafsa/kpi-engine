@@ -85,7 +85,6 @@ TEXT_TO_SQL_DB_PATH = TEXT_TO_SQL_DIR / "donnees_locales.db"
 # Nom de la table SQL - par defaut, le nom de la feuille source.
 TEXT_TO_SQL_TABLE_NAME = os.environ.get("KPI_SQL_TABLE_NAME", DATA_SHEET)
 
+ _num_gpu_env = os.environ.get("KPI_SQL_NUM_GPU")
+SQL_NUM_GPU = int(_num_gpu_env) if _num_gpu_env else None
 
-# _num_gpu_env = os.environ.get("KPI_SQL_NUM_GPU")
-# SQL_NUM_GPU = int(_num_gpu_env) if _num_gpu_env else None
-SQL_NUM_GPU = 8  
